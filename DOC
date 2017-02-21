@@ -1,0 +1,17 @@
+Opis aplikacji
+Aplikacja ma służyć do automatycznego tworzenia struktury katalogów projektu oraz klas składowych.
+Ma mieć możliwość automatycznego wstawiania zawartości plików.
+Ma mieć możliwość tworzenia listy parametrów, które potem będą zastępowane przez im przypisane wartości
+Ma mieć możliwość importu i eksportu struktur katalogów
+Ma mieć możliwość edycji struktur i zawartości plików
+
+Opis działania - Edycja struktury katalogów
+Użytkownik tworzy strukturę katalogów
+Użytkownik tworzy listę parametrów
+Po zaznaczeniu pliku użytkownik wpisuje zawartość pliku
+Po zakończeniu edycji użytkownik zapisuje strukturę podając jej nazwę
+
+Opis działania - Tworzenie struktury katalogów
+Użytkownik wybiera wcześniej zapisaną strukturę lub tworzy nową
+Użytkownik ma możliwość wprowadzenia poprawek
+Użytkownik wybiera miejsce gdzie zostanie stworzona struktura katalogów
