@@ -70,7 +70,7 @@
                          </base-DElement>
                          <object>{ea794aa1-d7a6-4aab-bca9-4ef9bcefac91}</object>
                          <name>FileConfig</name>
-                         <pos>x:240;y:520</pos>
+                         <pos>x:265;y:240</pos>
                          <rect>x:-40;y:-70;w:80;h:140</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -91,8 +91,8 @@
                          </base-DElement>
                          <object>{475ddbb1-cc1c-48fd-b84d-d52df7d800ab}</object>
                          <name>FileConfigList</name>
-                         <pos>x:185;y:385</pos>
-                         <rect>x:-70;y:-35;w:140;h:70</rect>
+                         <pos>x:180;y:60</pos>
+                         <rect>x:-70;y:-50;w:140;h:100</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -197,157 +197,12 @@
                         <DObject>
                          <base-DElement>
                           <DElement>
-                           <uid>{931fcd3c-91da-4fdc-bcc1-19d7f6c87eef}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{9857df76-573d-4361-9204-005b48a4c7ec}</object>
-                         <name>FileConfigSaver</name>
-                         <pos>x:250;y:195</pos>
-                         <rect>x:-70;y:-50;w:140;h:100</rect>
-                         <visual-role>0</visual-role>
-                        </DObject>
-                       </base-DObject>
-                       <show-all-members>true</show-all-members>
-                      </DClass>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DAssociation">
-                      <DAssociation>
-                       <base-DRelation>
-                        <DRelation>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{d783865b-6cb8-4c84-abb5-182687671c5d}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{d170a24c-b6be-4895-9a73-340393c4e7a5}</object>
-                         <a>{134d737e-75ea-4794-a361-b6ca26845620}</a>
-                         <b>{931fcd3c-91da-4fdc-bcc1-19d7f6c87eef}</b>
-                        </DRelation>
-                       </base-DRelation>
-                       <a>
-                        <DAssociationEnd>
-                         <navigable>true</navigable>
-                        </DAssociationEnd>
-                       </a>
-                      </DAssociation>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DClass">
-                      <DClass>
-                       <base-DObject>
-                        <DObject>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{0f450b0a-97da-4244-ae8a-bf1623d07d9e}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{a44cceb1-9e28-4e35-a55c-2478725281da}</object>
-                         <name>FileConfigLoader</name>
-                         <pos>x:95;y:195</pos>
-                         <rect>x:-70;y:-50;w:140;h:100</rect>
-                         <visual-role>0</visual-role>
-                        </DObject>
-                       </base-DObject>
-                       <show-all-members>true</show-all-members>
-                      </DClass>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DAssociation">
-                      <DAssociation>
-                       <base-DRelation>
-                        <DRelation>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{d765fac8-3f4c-4858-baa4-55f250e4c7a9}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{14bdc74b-9820-4dea-b9ea-682987756186}</object>
-                         <a>{0f450b0a-97da-4244-ae8a-bf1623d07d9e}</a>
-                         <b>{134d737e-75ea-4794-a361-b6ca26845620}</b>
-                        </DRelation>
-                       </base-DRelation>
-                       <a>
-                        <DAssociationEnd>
-                         <navigable>true</navigable>
-                        </DAssociationEnd>
-                       </a>
-                      </DAssociation>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DClass">
-                      <DClass>
-                       <base-DObject>
-                        <DObject>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{42b81edf-33c6-445c-82db-70ff782835b3}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{dee1acc7-668b-420f-be73-ca84676670f2}</object>
-                         <name>FileConfigBaseControler</name>
-                         <pos>x:165;y:45</pos>
-                         <rect>x:-70;y:-45;w:140;h:90</rect>
-                         <visual-role>0</visual-role>
-                        </DObject>
-                       </base-DObject>
-                       <show-all-members>true</show-all-members>
-                      </DClass>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DDependency">
-                      <DDependency>
-                       <base-DRelation>
-                        <DRelation>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{a19e19d4-f786-4f3a-b59d-8aefb621de13}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{386b516c-670c-4e20-9117-5da21d7f2760}</object>
-                         <a>{42b81edf-33c6-445c-82db-70ff782835b3}</a>
-                         <b>{0f450b0a-97da-4244-ae8a-bf1623d07d9e}</b>
-                        </DRelation>
-                       </base-DRelation>
-                      </DDependency>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DDependency">
-                      <DDependency>
-                       <base-DRelation>
-                        <DRelation>
-                         <base-DElement>
-                          <DElement>
-                           <uid>{30749268-c3c3-4a7c-bbae-e877b952d2d7}</uid>
-                          </DElement>
-                         </base-DElement>
-                         <object>{38ae9409-2830-44e4-8acd-4bd9b06a8d3c}</object>
-                         <a>{42b81edf-33c6-445c-82db-70ff782835b3}</a>
-                         <b>{931fcd3c-91da-4fdc-bcc1-19d7f6c87eef}</b>
-                        </DRelation>
-                       </base-DRelation>
-                      </DDependency>
-                     </instance>
-                    </item>
-                    <item>
-                     <instance type="DClass">
-                      <DClass>
-                       <base-DObject>
-                        <DObject>
-                         <base-DElement>
-                          <DElement>
                            <uid>{6a2cf384-21c0-494f-aef0-fc8b7831d51b}</uid>
                           </DElement>
                          </base-DElement>
                          <object>{bf666fe2-a8bb-40f3-b96f-8c8db9b1661c}</object>
                          <name>FileConfigParser</name>
-                         <pos>x:180;y:635</pos>
+                         <pos>x:95;y:205</pos>
                          <rect>x:-70;y:-35;w:140;h:70</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -391,7 +246,7 @@
                          </base-DElement>
                          <object>{4357d53d-4789-46e3-869c-386bd35c0fe5}</object>
                          <name>DirectoryTree</name>
-                         <pos>x:80;y:755</pos>
+                         <pos>x:80;y:535</pos>
                          <rect>x:-45;y:-30;w:90;h:60</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -435,7 +290,7 @@
                          </base-DElement>
                          <object>{13def12c-52ce-407d-a50f-d19ccee0211f}</object>
                          <name>FileContent</name>
-                         <pos>x:205;y:755</pos>
+                         <pos>x:205;y:535</pos>
                          <rect>x:-40;y:-30;w:80;h:60</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -524,7 +379,7 @@
                          </base-DElement>
                          <object>{965f6bde-55a0-4cd9-aa00-c4d6dfb2aea7}</object>
                          <name>ParameterList</name>
-                         <pos>x:325;y:755</pos>
+                         <pos>x:325;y:535</pos>
                          <rect>x:-45;y:-30;w:90;h:60</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -624,8 +479,8 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1487854810685</last-modified>
-                  <toolbarid>General</toolbarid>
+                  <last-modified>1487855683108</last-modified>
+                  <toolbarid>Classes</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
                </MCanvasDiagram>
@@ -688,7 +543,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{69abfe53-374e-4534-88ba-8b39132e311c}</uid>
+                    <uid>{1815ef45-50fb-41ba-9b99-4aef612bbc01}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool setDirectory(Name)</declaration>
@@ -696,7 +551,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{f13f5d33-fad9-435f-9aba-a0b2a7b6c5d9}</uid>
+                    <uid>{0290bfd9-8184-46bf-a997-3d9ece06b154}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool createFile(Name,Content)</declaration>
@@ -704,7 +559,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{311d06e0-0d4d-4488-b6ed-0c0cc7c1bd75}</uid>
+                    <uid>{3164b841-1b32-4f94-a0a1-706c3429f408}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool createDirectory(Name)</declaration>
@@ -737,7 +592,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{665b4603-c99a-4aba-9ed7-1e1295e8d5ef}</uid>
+                    <uid>{2b4d49ab-566c-41ec-8b14-9d19527724a8}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>path</declaration>
@@ -745,7 +600,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{87aec784-1c6b-457d-864c-20b762d4b6f8}</uid>
+                    <uid>{ddf1636e-afe0-438c-bcaf-ee97d1ac8aa2}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>content</declaration>
@@ -753,7 +608,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{a9198cb9-5691-4b49-b2df-1a6a544daf79}</uid>
+                    <uid>{6ed14887-f8f7-4821-b8d5-f2573bbc8fb8}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>name</declaration>
@@ -761,7 +616,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{0da49a70-1c21-4b9a-bb39-9332b3b9f22b}</uid>
+                    <uid>{ec4abe4f-5519-4046-9009-347407cc2220}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setters()</declaration>
@@ -769,7 +624,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{3ae10eca-4f1c-4074-b7b1-3adf0a97a0fc}</uid>
+                    <uid>{1b8d57a2-ede8-46c4-a442-1f49cdffcd72}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getters()</declaration>
@@ -938,33 +793,6 @@
                         </target>
                        </handle>
                       </item>
-                      <item>
-                       <handle>
-                        <uid>{d170a24c-b6be-4895-9a73-340393c4e7a5}</uid>
-                        <target>
-                         <instance type="MAssociation">
-                          <MAssociation>
-                           <base-MRelation>
-                            <MRelation>
-                             <base-MElement>
-                              <MElement>
-                               <uid>{d170a24c-b6be-4895-9a73-340393c4e7a5}</uid>
-                              </MElement>
-                             </base-MElement>
-                             <a>{475ddbb1-cc1c-48fd-b84d-d52df7d800ab}</a>
-                             <b>{9857df76-573d-4361-9204-005b48a4c7ec}</b>
-                            </MRelation>
-                           </base-MRelation>
-                           <a>
-                            <MAssociationEnd>
-                             <navigable>true</navigable>
-                            </MAssociationEnd>
-                           </a>
-                          </MAssociation>
-                         </instance>
-                        </target>
-                       </handle>
-                      </item>
                      </qlist>
                     </handles>
                    </handles>
@@ -975,10 +803,26 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{2d0a23ea-a78f-474d-a7ad-6a668a02fb57}</uid>
+                    <uid>{3951bd15-b9c4-481f-83b6-9bb8b602d1de}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>addFileConfig(Config)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{02d32c8a-1544-4b01-ae62-ad73d1d811cd}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>save(Name)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{131d0690-92d5-4d1e-b05f-dd5f604e6caf}</uid>
+                    <visibility>1</visibility>
+                    <type>2</type>
+                    <declaration>load(Name)</declaration>
                    </MClassMember>
                   </item>
                  </qlist>
@@ -1043,236 +887,10 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{b843b03b-aeb7-482d-a72d-c5d1e6f604c8}</uid>
+                    <uid>{5030c593-5333-4ec1-9a9a-de3bda4abc57}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>run()</declaration>
-                   </MClassMember>
-                  </item>
-                 </qlist>
-                </members>
-               </MClass>
-              </instance>
-             </target>
-            </handle>
-           </item>
-           <item>
-            <handle>
-             <uid>{9857df76-573d-4361-9204-005b48a4c7ec}</uid>
-             <target>
-              <instance type="MClass">
-               <MClass>
-                <base-MObject>
-                 <MObject>
-                  <base-MElement>
-                   <MElement>
-                    <uid>{9857df76-573d-4361-9204-005b48a4c7ec}</uid>
-                   </MElement>
-                  </base-MElement>
-                  <name>FileConfigSaver</name>
-                 </MObject>
-                </base-MObject>
-                <members>
-                 <qlist>
-                  <item>
-                   <MClassMember>
-                    <uid>{dbacf777-edb6-46fd-b34e-d016d2392229}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFileConfigList(List)</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{aa6972b9-0c15-486c-a66c-8baca36d2e18}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>save()</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{2b8c470a-9d1f-4503-824d-f0efef10d546}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFile(Name)</declaration>
-                   </MClassMember>
-                  </item>
-                 </qlist>
-                </members>
-               </MClass>
-              </instance>
-             </target>
-            </handle>
-           </item>
-           <item>
-            <handle>
-             <uid>{a44cceb1-9e28-4e35-a55c-2478725281da}</uid>
-             <target>
-              <instance type="MClass">
-               <MClass>
-                <base-MObject>
-                 <MObject>
-                  <base-MElement>
-                   <MElement>
-                    <uid>{a44cceb1-9e28-4e35-a55c-2478725281da}</uid>
-                   </MElement>
-                  </base-MElement>
-                  <name>FileConfigLoader</name>
-                  <relations>
-                   <handles>
-                    <handles>
-                     <qlist>
-                      <item>
-                       <handle>
-                        <uid>{14bdc74b-9820-4dea-b9ea-682987756186}</uid>
-                        <target>
-                         <instance type="MAssociation">
-                          <MAssociation>
-                           <base-MRelation>
-                            <MRelation>
-                             <base-MElement>
-                              <MElement>
-                               <uid>{14bdc74b-9820-4dea-b9ea-682987756186}</uid>
-                              </MElement>
-                             </base-MElement>
-                             <a>{a44cceb1-9e28-4e35-a55c-2478725281da}</a>
-                             <b>{475ddbb1-cc1c-48fd-b84d-d52df7d800ab}</b>
-                            </MRelation>
-                           </base-MRelation>
-                           <a>
-                            <MAssociationEnd>
-                             <navigable>true</navigable>
-                            </MAssociationEnd>
-                           </a>
-                          </MAssociation>
-                         </instance>
-                        </target>
-                       </handle>
-                      </item>
-                     </qlist>
-                    </handles>
-                   </handles>
-                  </relations>
-                 </MObject>
-                </base-MObject>
-                <members>
-                 <qlist>
-                  <item>
-                   <MClassMember>
-                    <uid>{5bef7876-55a8-4938-ae6a-dd773a9e336e}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFileConfigList(List)</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{7dbba23c-4dee-44d5-b184-92498d503778}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>load()</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{11315c26-3448-484b-a6e1-620a18529030}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFile(Name)</declaration>
-                   </MClassMember>
-                  </item>
-                 </qlist>
-                </members>
-               </MClass>
-              </instance>
-             </target>
-            </handle>
-           </item>
-           <item>
-            <handle>
-             <uid>{dee1acc7-668b-420f-be73-ca84676670f2}</uid>
-             <target>
-              <instance type="MClass">
-               <MClass>
-                <base-MObject>
-                 <MObject>
-                  <base-MElement>
-                   <MElement>
-                    <uid>{dee1acc7-668b-420f-be73-ca84676670f2}</uid>
-                   </MElement>
-                  </base-MElement>
-                  <name>FileConfigBaseControler</name>
-                  <relations>
-                   <handles>
-                    <handles>
-                     <qlist>
-                      <item>
-                       <handle>
-                        <uid>{386b516c-670c-4e20-9117-5da21d7f2760}</uid>
-                        <target>
-                         <instance type="MDependency">
-                          <MDependency>
-                           <base-MRelation>
-                            <MRelation>
-                             <base-MElement>
-                              <MElement>
-                               <uid>{386b516c-670c-4e20-9117-5da21d7f2760}</uid>
-                              </MElement>
-                             </base-MElement>
-                             <a>{dee1acc7-668b-420f-be73-ca84676670f2}</a>
-                             <b>{a44cceb1-9e28-4e35-a55c-2478725281da}</b>
-                            </MRelation>
-                           </base-MRelation>
-                          </MDependency>
-                         </instance>
-                        </target>
-                       </handle>
-                      </item>
-                      <item>
-                       <handle>
-                        <uid>{38ae9409-2830-44e4-8acd-4bd9b06a8d3c}</uid>
-                        <target>
-                         <instance type="MDependency">
-                          <MDependency>
-                           <base-MRelation>
-                            <MRelation>
-                             <base-MElement>
-                              <MElement>
-                               <uid>{38ae9409-2830-44e4-8acd-4bd9b06a8d3c}</uid>
-                              </MElement>
-                             </base-MElement>
-                             <a>{dee1acc7-668b-420f-be73-ca84676670f2}</a>
-                             <b>{9857df76-573d-4361-9204-005b48a4c7ec}</b>
-                            </MRelation>
-                           </base-MRelation>
-                          </MDependency>
-                         </instance>
-                        </target>
-                       </handle>
-                      </item>
-                     </qlist>
-                    </handles>
-                   </handles>
-                  </relations>
-                 </MObject>
-                </base-MObject>
-                <members>
-                 <qlist>
-                  <item>
-                   <MClassMember>
-                    <uid>{3ebb0303-530c-471f-b1f4-3c1b66637da6}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFileConfigList(List)</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{602120d7-b10d-4ab7-bac4-0ad0a6a54005}</uid>
-                    <visibility>1</visibility>
-                    <type>2</type>
-                    <declaration>setFile(Name)</declaration>
                    </MClassMember>
                   </item>
                  </qlist>
@@ -1418,7 +1036,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{267f25ce-94bb-4eb3-80d1-b82e073425d2}</uid>
+                    <uid>{0917d928-6760-4d7a-b146-4c4b6dca743a}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setFileConfigList(List)</declaration>
@@ -1654,7 +1272,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{52fee0ab-ec37-4b4a-adad-b716170cc16c}</uid>
+                    <uid>{496b5310-a5d9-4d54-aac1-47edb3350063}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>Dir getDirectory()</declaration>
