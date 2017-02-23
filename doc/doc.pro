@@ -1,4 +1,5 @@
 TEMPLATE = aux
 
 DISTFILES += \
-    description
+    description \
+    model.qmodel
