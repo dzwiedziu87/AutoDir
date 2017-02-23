@@ -1,0 +1,4 @@
+TEMPLATE = aux
+
+DISTFILES += \
+    description
