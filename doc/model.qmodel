@@ -778,7 +778,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{982d9014-ffb5-4513-b3cf-f0e2b926b5a4}</uid>
+                    <uid>{29b62659-d5b0-4fb2-8d1d-b0978f61951f}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool setDirectory(Name)</declaration>
@@ -786,7 +786,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{ea6d714d-9f06-492c-ad99-677bdb3bb893}</uid>
+                    <uid>{a05ac90d-f063-4047-88c5-fb043cecf3aa}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool createFile(Name,Content)</declaration>
@@ -794,7 +794,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{8ac2a217-c43b-45c7-a635-65f142bc7219}</uid>
+                    <uid>{32cb8ef7-c75e-4d67-ad54-deb6ece91ae7}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>bool createDirectory(Name)</declaration>
@@ -889,7 +889,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{bdae1fd9-3093-48ff-94c2-4b66b3e2cbe9}</uid>
+                    <uid>{2bcccb9a-6714-4c36-ba24-8ab2edf9c5c1}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>path</declaration>
@@ -897,7 +897,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{6123bb81-007f-4e43-b23c-d62f4c4c6cec}</uid>
+                    <uid>{a1ba8455-7701-431f-8c21-1d2d2e3ee0cc}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>content</declaration>
@@ -905,7 +905,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{834b1a53-a0f3-4eb4-8287-3874c0f12b00}</uid>
+                    <uid>{4fad4703-bc1d-4979-a7db-eb62939de2e8}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>name</declaration>
@@ -913,7 +913,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{026b1914-9360-4b39-a12a-36da3d98ff70}</uid>
+                    <uid>{acb346bc-c498-4366-a6fd-fd6a62b28e6d}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setters()</declaration>
@@ -921,7 +921,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{121e7dbe-c388-4d13-8e43-4a07459477ac}</uid>
+                    <uid>{75913d3d-7630-4262-aa7c-2fbb372b3f5c}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getters()</declaration>
@@ -1127,7 +1127,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{703832a6-ef8b-45e9-a2ae-971703d338ca}</uid>
+                    <uid>{d45ac777-0b0c-44fd-a9b6-559cc4ca1756}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>addFileConfig(Config)</declaration>
@@ -1135,7 +1135,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{36e590f0-9327-495f-8d1a-18d0c8652c41}</uid>
+                    <uid>{5d495d0b-3b59-4882-a304-870761d77614}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getFileConfigList()</declaration>
@@ -1143,7 +1143,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{fd7e6f47-804d-4a17-bc2d-87a8412e003c}</uid>
+                    <uid>{6d097096-6b97-4c6c-ab35-c45b275e5546}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>save(Name)</declaration>
@@ -1151,7 +1151,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{eda8de69-d48e-41f6-b6ce-0b9756031781}</uid>
+                    <uid>{8237f966-5865-42d8-8213-42fedac8baf1}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>load(Name)</declaration>
@@ -1246,7 +1246,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{f938994f-094d-4a44-9f36-9d836d311b0c}</uid>
+                    <uid>{43a6d928-90b6-40dd-8ed5-71d907a4638a}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>run()</declaration>
@@ -1395,7 +1395,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{5c00524a-e641-4372-ad1b-b28b0af33143}</uid>
+                    <uid>{85564e62-8eb0-4d55-a1d5-4192868848e2}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setFileConfigList(List)</declaration>
@@ -1403,7 +1403,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{3050e141-7d09-4312-bee6-87bd10567f8d}</uid>
+                    <uid>{615233be-be5d-46b4-a473-78e54f810421}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getFileConfigList()</declaration>
@@ -1493,7 +1493,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{d4266e92-329f-420e-abd2-b17e5b2f2483}</uid>
+                    <uid>{89f24281-3c76-471c-853c-fbed4efadbde}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getFilePathList()</declaration>
@@ -1501,7 +1501,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{545d62ea-c521-4e57-adf5-1a691f488aa3}</uid>
+                    <uid>{70691b92-6288-403a-a640-b0b8bed1cca5}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setFilePathList()</declaration>
@@ -1591,7 +1591,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{4137d9d7-40ad-4ba2-a4e0-bd94d0ec1630}</uid>
+                    <uid>{5403649a-8659-4f81-b797-9eaf16aff543}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getFileContent(Path)</declaration>
@@ -1599,7 +1599,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{986c1f50-62a2-4ad1-85b3-9743d3f02945}</uid>
+                    <uid>{078909ba-812d-4c49-87eb-ad5d128eccde}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setFileContent(Path,Content)</declaration>
@@ -1689,7 +1689,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{678ff251-60e2-47e8-8a29-9e38e6c19978}</uid>
+                    <uid>{3700eb5f-120b-419c-b79a-ef514ef1952c}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getParameters()</declaration>
@@ -1697,7 +1697,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{a63da907-06ab-439c-9286-1b8838323d63}</uid>
+                    <uid>{907fbd4c-6624-4c29-8352-223c98b8cc8c}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setParameter(Parameter)</declaration>
@@ -1765,7 +1765,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{1032b6b6-f526-45c0-a39b-b1dbdcc95732}</uid>
+                    <uid>{4677ede7-7d90-433e-8a8a-6b1138b6e751}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>Dir getDirectory()</declaration>
@@ -1833,7 +1833,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{06388a81-91d7-4c60-94cf-93318c1f6556}</uid>
+                    <uid>{78b11a24-f91d-4d68-affe-73c47556b2b6}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>search</declaration>
@@ -1841,7 +1841,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{b4909fe2-9dc4-40cb-883f-f538f50a609b}</uid>
+                    <uid>{cd995fb5-641c-458e-938d-d32942f2cc6c}</uid>
                     <visibility>3</visibility>
                     <type>1</type>
                     <declaration>replace</declaration>
@@ -1849,7 +1849,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{1219b989-6487-49d3-a319-c1ee781d2331}</uid>
+                    <uid>{6bb25d64-3945-42e1-89bb-0c483534ac3f}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>setters()</declaration>
@@ -1857,7 +1857,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{882bead7-dbb2-4c24-9eee-99c2c8164e73}</uid>
+                    <uid>{70de326c-8cd8-4f2e-97b6-0846638910be}</uid>
                     <visibility>1</visibility>
                     <type>2</type>
                     <declaration>getters()</declaration>
@@ -1865,32 +1865,6 @@
                   </item>
                  </qlist>
                 </members>
-               </MClass>
-              </instance>
-             </target>
-            </handle>
-           </item>
-           <item>
-            <handle>
-             <uid>{d47611b4-1d2d-4519-a5a3-681de8e6a647}</uid>
-             <target>
-              <instance type="MClass">
-               <MClass>
-                <base-MObject>
-                 <MObject>
-                  <base-MElement>
-                   <MElement>
-                    <uid>{d47611b4-1d2d-4519-a5a3-681de8e6a647}</uid>
-                    <stereotypes>
-                     <qlist>
-                      <item>interface</item>
-                     </qlist>
-                    </stereotypes>
-                   </MElement>
-                  </base-MElement>
-                  <name>Nowy Interface</name>
-                 </MObject>
-                </base-MObject>
                </MClass>
               </instance>
              </target>
